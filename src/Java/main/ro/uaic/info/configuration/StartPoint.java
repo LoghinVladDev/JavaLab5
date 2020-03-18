@@ -25,11 +25,19 @@ public class StartPoint {
                                     .withName("Lab 5")
                                     .build()
                                     .addTag("type", "html")
-                                    .addTag("size", 16)
+                                    .addTag("size", 16),
+                            new Document.Builder()
+                                    .withID("SDAUX")
+                                    .withLocation("C:\\Users\\Vlad\\Contacts\\Desktop\\Structuri de date\\auxiliar.pdf")
+                                    .withName("auxiliar")
+                                    .build()
+                                    .addTag("type", "pdf")
+                                    .addTag("size", 31357)
                     )
                     .build();
 
             CatalogHandler.save(c1);
+            CatalogHandler.savePlainText(c1);
         }
         catch (Exception e){
             System.out.println(e.toString());
@@ -41,6 +49,8 @@ public class StartPoint {
             for(String id : c2.getIDs()){
                 System.out.println(c2.findById(id));
             }
+
+            //CatalogHandler.view(c2.findById("SDAUX"));
         }
         catch(Exception e){
             System.out.println(e.toString());

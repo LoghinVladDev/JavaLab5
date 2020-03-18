@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaLab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/InvalidBuildException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/InvalidCatalogException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/object/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/object/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/ViewTagException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/Tag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +80,24 @@
       <updated>1584137409194</updated>
       <workItem from="1584137411937" duration="47000" />
       <workItem from="1584312301954" duration="746000" />
-      <workItem from="1584463781384" duration="13621000" />
+      <workItem from="1584463781384" duration="17854000" />
     </task>
+    <task id="LOCAL-00001" summary="Second Commit&#10;2/3 Compulsory">
+      <created>1584504604760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584504604761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second Commit&#10;2/3 Compulsory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit&#10;2/3 Compulsory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="72" y="182" key="#Auto_Import" timestamp="1584475606203">
@@ -103,22 +108,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584467384191" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1584504398180">
+    <state x="105" y="118" key="CommitChangelistDialog2" timestamp="1584504603800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398180" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1584504398180">
+    <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584504603800" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1584508037500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398180" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1584504398179">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1584508037500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398179" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1584504398180">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1584508037500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398180" />
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1584508037500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584504622647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584504622647" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1584463957862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
