@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="" />
+    <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaLab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/InvalidBuildException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/InvalidCatalogException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/object/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/object/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +22,16 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -21,8 +44,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/Java/main" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StartPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.uaic.info.configuration.StartPoint" />
+      <module name="JavaLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.uaic.info.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartPoint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,10 +86,50 @@
       <option name="presentableId" value="Default" />
       <updated>1584137409194</updated>
       <workItem from="1584137411937" duration="47000" />
+      <workItem from="1584312301954" duration="746000" />
+      <workItem from="1584463781384" duration="13621000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="182" key="#Auto_Import" timestamp="1584475606203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="182" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1584475606203" />
+    <state x="72" y="182" key="#Project_Structure" timestamp="1584467384191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584467384191" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1584504398180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398180" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1584504398180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398180" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1584504398179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398179" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1584504398180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584504398180" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1584463957862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584463957862" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584463809777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584463809777" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1584467038752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584467038752" />
   </component>
 </project>
