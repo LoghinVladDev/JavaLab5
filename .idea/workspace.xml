@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/ViewTagException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/Tag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/configuration/StartPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/InvalidBuildException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/InvalidCatalogException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/exception/ViewTagException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/object/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/object/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/CatalogHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/main/ro/uaic/info/utility/Tag.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\java\JavaLab5\src\main\java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="StartPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.uaic.info.configuration.StartPoint" />
@@ -81,6 +90,7 @@
       <workItem from="1584137411937" duration="47000" />
       <workItem from="1584312301954" duration="746000" />
       <workItem from="1584463781384" duration="17854000" />
+      <workItem from="1584556161836" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit&#10;2/3 Compulsory">
       <created>1584504604760</created>
@@ -112,21 +122,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584504603800" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1584508037500">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584556863243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584556863243" />
     <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1584508037500">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584556863243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584556863243" />
     <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1584508037500">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584556863243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584556863243" />
     <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1584508037500">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584556863243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584556863243" />
     <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
     <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584504622647">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -136,9 +150,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584463957862" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584463809777">
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584556164013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584556164013" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584463809777" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1584467038752">
       <screen x="0" y="0" width="1920" height="1040" />
