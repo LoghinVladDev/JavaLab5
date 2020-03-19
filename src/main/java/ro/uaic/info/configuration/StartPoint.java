@@ -25,14 +25,14 @@ public class StartPoint {
                                     .withName("Lab 5")
                                     .build()
                                     .addTag("type", "html")
-                                    .addTag("size", 16),
+                                    .addTag("size", "16"),
                             new Document.Builder()
                                     .withID("SDAUX")
                                     .withLocation("C:\\Users\\Vlad\\Contacts\\Desktop\\Structuri de date\\auxiliar.pdf")
                                     .withName("auxiliar")
                                     .build()
                                     .addTag("type", "pdf")
-                                    .addTag("size", 31357)
+                                    .addTag("size", "31357")
                     )
                     .build();
 
@@ -41,17 +41,19 @@ public class StartPoint {
         }
         catch (Exception e){
             System.out.println(e.toString());
-            System.out.println(e.getStackTrace().toString());
         }
 
         try {
-            Catalog c2 =CatalogHandler.load("D:/Lfuck/java/resources/l5.ser");
+            Catalog c2 = CatalogHandler.load("D:/Lfuck/java/resources/l5.ser");
 
-            for(String id : c2.getIDs()){
+            for(String id : c2.getIDs()) {
                 System.out.println(c2.findById(id));
             }
 
             //CatalogHandler.view(c2.findById("SDAUX"));
+            Catalog c3 = CatalogHandler.loadPlainText("D:/Lfuck/java/resources/l5.txt");
+
+            System.out.println(c3);
         }
         catch(Exception e){
             System.out.println(e.toString());

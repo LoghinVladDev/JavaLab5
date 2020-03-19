@@ -1,10 +1,8 @@
 package ro.uaic.info.object;
 
-import javafx.util.Pair;
 import ro.uaic.info.exception.InvalidBuildException;
 
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 

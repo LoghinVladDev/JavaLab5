@@ -55,6 +55,10 @@ public class Catalog implements Serializable {
 
     }
 
+    public String getName() {
+        return this.name;
+    }
+
     public List<Document> getDocumentList() {
         return this.documentList;
     }
@@ -79,6 +83,16 @@ public class Catalog implements Serializable {
                 .filter(d -> d.getId().equals(id))
                 .findAny()
                 .orElse(null);
+    }
+
+    public String toString(){
+        return "Catalog \""
+                + this.name
+                + "\"\n\tpath = "
+                + this.path
+                + "\n\t"
+                + "documents :\n"
+                + this.documentList.toString();
     }
 
     public String getPath(){
