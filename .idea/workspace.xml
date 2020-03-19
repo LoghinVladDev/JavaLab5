@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="Third Commit&#10;Refactor as Maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/Command.java" afterDir="false" />
+    <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/configuration/StartPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/configuration/StartPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/object/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/object/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/object/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/object/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/CatalogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/CatalogHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/configuration/StartPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/configuration/StartPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/object/Catalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/object/Catalog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/object/Document$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/object/Document$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/object/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/object/Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/utility/CatalogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/utility/CatalogHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/LoadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/LoadCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +87,7 @@
       <workItem from="1584556161836" duration="10595000" />
       <workItem from="1584630589732" duration="3795000" />
       <workItem from="1584649798046" duration="171000" />
+      <workItem from="1584650168875" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit&#10;2/3 Compulsory">
       <created>1584504604760</created>
@@ -118,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584557542514</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third Commit&#10;Refactor as Maven">
+      <created>1584650198502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584650198502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,10 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584467384191" />
-    <state x="105" y="118" key="CommitChangelistDialog2" timestamp="1584573696052">
+    <state x="105" y="118" key="CommitChangelistDialog2" timestamp="1584650195406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584573696052" />
+    <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584650195406" />
     <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584504603800" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584573696067">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -163,9 +162,10 @@
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584573696067" />
     <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584504622647">
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584650986065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584650986065" />
     <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584504622647" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1584463957862">
       <screen x="0" y="0" width="1920" height="1040" />
