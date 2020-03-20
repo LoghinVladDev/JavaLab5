@@ -1,4 +1,6 @@
 # JAVA LAB 5 FII
 ## Loghin Vlad-Andrei
 
-* TBA
+* Compulsory tot
+* Optional : plain text si clasa generala
+* Restul in curand
