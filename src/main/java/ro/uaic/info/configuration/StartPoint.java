@@ -5,8 +5,11 @@ import ro.uaic.info.object.Document;
 import ro.uaic.info.utility.*;
 
 import java.util.HashMap;
+import java.util.ResourceBundle;
 
 public class StartPoint {
+    public final static String RESOURCES_PATH = "./src/main/resources/";
+
     public static void main(String[] args) {
         try {
             Catalog c1 = new Catalog.Builder()
@@ -72,13 +75,13 @@ public class StartPoint {
             System.out.println(c5);
 
             new SaveCommand.Builder()
-                    .withCatalog(c5)
+                    .withCatalog(c5.setPath(RESOURCES_PATH + "cat.ser"))
                     .withType(FileHandle.PLAIN_TEXT)
                     .build()
                     .execute();
 
             new SaveCommand.Builder()
-                    .withCatalog(c4)
+                    .withCatalog(c4.setPath(RESOURCES_PATH + "cat.txt"))
                     .withType(FileHandle.SERIALIZED)
                     .build()
                     .execute();

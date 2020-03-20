@@ -51,6 +51,11 @@ public class Catalog implements Serializable {
         }
     }
 
+    public Catalog setPath(String path){
+        this.path = path;
+        return this;
+    }
+
     private Catalog(){
 
     }
