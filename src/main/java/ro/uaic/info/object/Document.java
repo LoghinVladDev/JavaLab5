@@ -40,7 +40,7 @@ public class Document implements Serializable {
             return this;
         }
 
-        public Document build() throws InvalidBuildException{
+        public Document build() throws InvalidBuildException {
             Document doc = new Document();
 
             if(this.id.isEmpty())

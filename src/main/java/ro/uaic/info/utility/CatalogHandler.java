@@ -9,7 +9,6 @@ import ro.uaic.info.object.Document;
 import java.awt.*;
 import java.io.*;
 import java.net.URI;
-import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -44,7 +43,7 @@ public class CatalogHandler {
 
                     }
             );
-            System.out.println(sb.toString());
+            //System.out.println(sb.toString());
             outputStream.write(sb.toString().getBytes());
         }
     }
@@ -62,7 +61,10 @@ public class CatalogHandler {
                     .build();
 
             while(scanner.hasNextLine()) {
-                String[] tokens = scanner.nextLine().replaceFirst("Doc;", "").split(";");
+                String[] tokens = scanner
+                        .nextLine()
+                        .replaceFirst("Doc;", "")
+                        .split(";");
 
                 Document currentDoc = new Document.Builder()
                         .withName(tokens[0].split("=")[1].trim())
@@ -70,7 +72,12 @@ public class CatalogHandler {
                         .withLocation(tokens[2].split("=")[1].trim())
                         .build();
 
-                String[] tags = tokens[3].split(":")[1].trim().replaceAll("[{}]+", "").trim().split(",");
+                String[] tags = tokens[3]
+                        .split(":")[1]
+                        .trim()
+                        .replaceAll("[{}]+", "")
+                        .trim()
+                        .split(",");
 
                 Arrays.stream(tags).forEach(e -> {e = e.trim(); currentDoc.addTag(
                         e.split("=")[0].trim(), e.split("=")[1].trim()

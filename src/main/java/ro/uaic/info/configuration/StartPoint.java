@@ -2,7 +2,7 @@ package ro.uaic.info.configuration;
 
 import ro.uaic.info.object.Catalog;
 import ro.uaic.info.object.Document;
-import ro.uaic.info.utility.CatalogHandler;
+import ro.uaic.info.utility.*;
 
 import java.util.HashMap;
 
@@ -54,6 +54,39 @@ public class StartPoint {
             Catalog c3 = CatalogHandler.loadPlainText("D:/Lfuck/java/resources/l5.txt");
 
             System.out.println(c3);
+
+            Catalog c4 = (Catalog) new LoadCommand.Builder()
+                    .withPath("D:/Lfuck/java/resources/l5.txt")
+                    .withType(FileHandle.PLAIN_TEXT)
+                    .build()
+                    .execute();
+
+            System.out.println(c4);
+
+            Catalog c5 = (Catalog) new LoadCommand.Builder()
+                    .withPath("D:/Lfuck/java/resources/l5.ser")
+                    .withType(FileHandle.SERIALIZED)
+                    .build()
+                    .execute();
+
+            System.out.println(c5);
+
+            new SaveCommand.Builder()
+                    .withCatalog(c5)
+                    .withType(FileHandle.PLAIN_TEXT)
+                    .build()
+                    .execute();
+
+            new SaveCommand.Builder()
+                    .withCatalog(c4)
+                    .withType(FileHandle.SERIALIZED)
+                    .build()
+                    .execute();
+
+            new ViewCommand.Builder()
+                    .withDocument(c4.getDocumentList().get(0))
+                    .build()
+                    .execute();
         }
         catch(Exception e){
             System.out.println(e.toString());

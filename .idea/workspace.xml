@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b12fcd1f-eaad-42b5-b056-835071bdba14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/FileHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/SaveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/ViewCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/configuration/StartPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/configuration/StartPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/object/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/object/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/CatalogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/CatalogHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/LoadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/uaic/info/utility/LoadCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/configuration/StartPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/configuration/StartPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/uaic/info/utility/CatalogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/uaic/info/utility/CatalogHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,12 +48,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/Java/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vlad\Documents\GitHub\JavaLab5\src\main\java\a" />
+      <recent name="C:\Users\Vlad\Documents\GitHub\JavaLab5\src\main\java" />
+      <recent name="C:\Users\Vlad\Documents\GitHub\JavaLab5\src\main\java\ro2" />
       <recent name="C:\Git\java\JavaLab5\src\main\java" />
     </key>
   </component>
@@ -88,6 +101,7 @@
       <workItem from="1584630589732" duration="3795000" />
       <workItem from="1584649798046" duration="171000" />
       <workItem from="1584650168875" duration="818000" />
+      <workItem from="1584654746211" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit&#10;2/3 Compulsory">
       <created>1584504604760</created>
@@ -129,39 +143,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="Third Commit&#10;Refactor as Maven" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="182" key="#Auto_Import" timestamp="1584475606203">
+    <state x="72" y="182" key="#Auto_Import" timestamp="1584662637962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="182" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1584475606203" />
-    <state x="72" y="182" key="#Project_Structure" timestamp="1584467384191">
+    <state x="72" y="182" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1584662637962" />
+    <state x="72" y="182" key="#Project_Structure" timestamp="1584655197560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584467384191" />
+    <state x="72" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584655197560" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584655111579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584655111579" />
     <state x="105" y="118" key="CommitChangelistDialog2" timestamp="1584650195406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584650195406" />
     <state x="105" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584504603800" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584573696067">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1584664028442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584573696067" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584573696067">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584664028442" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1584664028442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584573696067" />
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584573696067">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584664028442" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1584664028442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584573696067" />
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584573696067">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584664028442" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1584664028442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584573696067" />
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584508037500" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584664028442" />
     <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584650986065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,6 +202,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1291" y="163" width="1400" height="1027" key="dock-window-2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584649220964" />
+    <state x="342" y="222" key="new project wizard" timestamp="1584655016234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="222" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584655016234" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1584467038752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
